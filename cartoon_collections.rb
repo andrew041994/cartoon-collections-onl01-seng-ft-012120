@@ -10,11 +10,11 @@ end
 
 def long_planeteer_calls(array)
 
-  if array.any? { |e| e.length > 4 }
-     return true
-   else array.all? { |e| e.size <= 4}
-     return false
-  end
+   array.any? { |e| e.length > 4 }
+  #    return true
+  #  else array.all? { |e| e.size <= 4}
+  #    return false
+  # end
 end
 
 def find_the_cheese(array)
